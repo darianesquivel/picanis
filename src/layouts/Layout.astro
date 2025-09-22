@@ -1,22 +1,55 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>PICANIS - GRINDERS</title>
+    <meta
+      name="description"
+      content="PICANIS - Próximamente, descubre nuestra comunidad de grinders y contenido exclusivo. Mantente atento para el lanzamiento oficial."
+    />
+    <meta
+      name="keywords"
+      content="PICANIS, grinders, comunidad, próximo lanzamiento, gaming, contenido exclusivo"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.picanis.com/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="PICANIS - GRINDERS" />
+    <meta
+      property="og:description"
+      content="PICANIS - Próximamente, descubre nuestra comunidad de grinders y contenido exclusivo."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.picanis.com/" />
+    <meta property="og:image" content="https://www.picanis.com/og-image.png" />
+    <meta property="og:locale" content="es_ES" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PICANIS - GRINDERS" />
+    <meta
+      name="twitter:description"
+      content="PICANIS - Próximamente, descubre nuestra comunidad de grinders y contenido exclusivo."
+    />
+    <meta name="twitter:image" content="https://www.picanis.com/og-image.png" />
+    <meta name="twitter:site" content="@TuUsuarioTwitter" />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>
